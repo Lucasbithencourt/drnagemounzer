@@ -185,7 +185,7 @@ h1,h2,h3,h4{
   background:rgba(168,135,90,.14); display:flex; align-items:center; justify-content:center; margin-bottom:22px;
 }
 .area-card__ico svg{ width:28px; height:28px; stroke:var(--accent); fill:none; stroke-width:1.6; }
-.area-card h3{ font-size:1.7rem; margin-bottom:8px; }
+.area-card h3{ font-size:1.7rem; margin-bottom:8px; color:var(--text-on-dark); } /* fix contraste: card tem fundo escuro; sem isto o h3 herdava o texto escuro da seção creme */
 .area-card__sub{ color:var(--text-dim-dark); font-size:.92rem; margin-bottom:22px; }
 .area-card ul li{ position:relative; padding:7px 0 7px 22px; color:var(--text-dim-dark); font-size:.95rem; }
 .area-card ul li::before{
